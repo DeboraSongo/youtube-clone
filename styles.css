@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    
+    background-color: rgb(243, 243, 243);
+    
+
+   
+}
+
+.youtube-video{
+    vertical-align: top;
+    text-align: top;
+    display: inline-block;
+    margin-right: 15px;
+    width: 360px;
+   
+  
+}
+.thumbnail-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sturniolo-thumbnail{
+    width: 100%;
+}
+
+p{
+    font-family: roboto, arial;
+    margin: 0;
+   
+
+}
+    
+.video-stats{
+    line-height: 30px;
+}
+
+.sturniolo-thumbnail{
+    width: 360px;
+
+}
+.video-title{
+    margin-bottom: 20px;
+
+}
+.channel-pic{
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+
+}
+.video-info{
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+}
+.profile-pic{
+    width: 100%;
+    border-radius: 25px;
+}
+.thumbnail-row{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    position: relative;
+
+}
+.author-name, .video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 400px 400px 1fr;
+    row-gap: 20px;
+    
+}
+
+.video-grid{
+    padding-top: 100px;
+    margin-left: 200px;
+}
+.video-time{
+    font-family: roboto, arial;
+    font-weight: 500px;
+    font-size: 12px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 318px;
+    bottom: 123px;
+    z-index: 0;
+    
+}
+#breanna .video-time{
+    position: absolute;
+    bottom: 143px;
+    left: 305px;
+
+}
+#rob .video-time{
+    position: absolute;
+    bottom: 105px;
+    left: 310pxpx;
+}
+#liz .video-time{
+    position: absolute;
+    bottom: 105px;
+    left: 315px;
+
+}
+#yoora .video-time{
+    position: absolute;
+    bottom: 105px;
+    left: 320px;
+
+}
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
